@@ -1,0 +1,37 @@
+================ FL train of mae_vit_base_patch16 with total model parameters: 111.7M  ================
+++++++++++++++++ Other Train related parameters ++++++++++++++++ 
+                  E_epoch: 2                             
+               accum_iter: 1                             
+               batch_size: 4                             
+                      blr: 0.002                         
+                clip_grad: None                          
+                data_path: /mnt/c/Users/PCM/Dropbox/Retina/
+                 data_set: Retina                        
+                   device: cuda                          
+              dist_on_itp: False                         
+                 dist_url: env://                        
+               input_size: 224                           
+               local_rank: -1                            
+                  log_dir: None                          
+                       lr: None                          
+               mask_ratio: 0.6                           
+ max_communication_rounds: 10                            
+                   min_lr: 0.0                           
+                    model: mae_vit_base_patch16          
+               model_name: mae                           
+                n_clients: 5                             
+            norm_pix_loss: True                          
+        num_local_clients: -1                            
+              num_workers: 10                            
+               output_dir: /mnt/c/Users/PCM/Documents/GitHub/SSL-FL/output/ckpts///pretrained_epoch__blr_bs_ratio_dis
+                  pin_mem: True                          
+                   resume:                               
+           save_ckpt_freq: 1                             
+                     seed: 0                             
+               split_type: split_1                       
+              start_epoch: 0                             
+                  sync_bn: True                          
+            warmup_epochs: 40                            
+             weight_decay: 0.05                          
+               world_size: 1                             
+++++++++++++++++  End of show parameters ++++++++++++++++ 

@@ -119,7 +119,7 @@ def main(args, model):
     print("{}".format(args).replace(', ', ',\n'))
     
     device = torch.device(args.device)
-
+    print("Hiiiiii", device)
     # fix the seed for reproducibility
     misc.fix_random_seeds(args)
 
